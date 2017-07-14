@@ -4,7 +4,7 @@ Pulls a markup text along with associated repository contents, renders it, and p
 
 The local repo should have been initialized first (`git clone`).
 
-You should simply give the name of the source (`SRC_FILE`) and rendered (`DST_FILE`) documents as well as the `COMMAND` doing the rendering in the `includes.sh` file, which will be read by the `build.sh` script.
+You should copy the `surrender` and `includes.sh` files in your directory, give the name of the source (`SRC_FILE`) and rendered (`DST_FILE`) documents as well as the `COMMAND` doing the rendering in `includes.sh`, which will be read by the `surrender` script. 
 
 The script should be cronable, but relies on ssh keys so you need either no passphrase or a properly configured ssh-agent environment.
 
