@@ -27,7 +27,7 @@ fi
 # Send back the result
 
 git add "$DST_FILE"
-git commit -m "Automatically built by https://github.com/jzu/surrender"
+git commit -m "Automatically generated"
 git push
 
 # Cleanup
